@@ -1,0 +1,16 @@
+{
+  "name": "fastify-jaeger",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^6.5.5",
+    "fastify-plugin": "^1.2.1",
+    "jaeger-client": "^3.13.0"
+  }
+}
