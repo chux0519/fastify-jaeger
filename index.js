@@ -13,7 +13,7 @@ function fastifyJaeger (fastify, params, next) {
   const ajv = new Ajv()
   const validateJaegerSchema = ajv.compile(jaegerSchema)
   const valid = validateJaegerSchema(config)
-  if (!valid) throw new Error('Jaeger config is not valid')
+  if (!valid) next(new Error('Jaeger config is invalid'))
 
   const tracer = initTracer({...baseConfig, ...config}, {...baseOptions, ...options})
   fastify.decorate('tracer', tracer)
@@ -24,4 +24,7 @@ function fastifyJaeger (fastify, params, next) {
   next()
 }
 
-module.exports = fp(fastifyJaeger)
+module.exports = fp(fastifyJaeger, {
+  name: 'fastify-jaeger',
+  fastify: '1.x'
+})
