@@ -1,0 +1,11 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "examples/ping/package.json",
+        "examples/reverse/package.json",
+        "package.json"
+      ]
+    }
+  }
+}
