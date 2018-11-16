@@ -1,6 +1,6 @@
 // from https://github.com/jaegertracing/jaeger-client-node/blob/20a92b30633c70fd5ad63b3b4e3b530c36db5aaa/src/configuration.js#L29-L67
 const jaegerSchema = {
-  // id: '/jaeger',
+  id: '/jaeger',
   type: 'object',
   properties: {
     serviceName: { type: 'string' },
