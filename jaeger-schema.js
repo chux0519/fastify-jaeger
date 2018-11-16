@@ -1,4 +1,5 @@
 // from https://github.com/jaegertracing/jaeger-client-node/blob/20a92b30633c70fd5ad63b3b4e3b530c36db5aaa/src/configuration.js#L29-L67
+// FIXME: the schema seems a bit wrong, but keep it the same as original for now
 const jaegerSchema = {
   id: '/jaeger',
   type: 'object',

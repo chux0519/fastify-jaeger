@@ -21,7 +21,7 @@ test('{config: VALID_CONFIG}', async t => {
 })
 
 test('{config: INVALID_CONFIG}', async t => {
-  t.rejects(await register(t, { config: INVALID_CONFIG }))
+  t.rejects(register(t, { config: INVALID_CONFIG }))
   t.end()
 })
 
