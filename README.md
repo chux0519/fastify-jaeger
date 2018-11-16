@@ -1,5 +1,7 @@
 # fastify-jaeger
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/chux0519/fastify-jaeger.svg)](https://greenkeeper.io/)
+
 Fastify Jaeger tracing plugin, with this you can share the same Jaeger tracer
 in your server.
 
