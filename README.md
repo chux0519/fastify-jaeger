@@ -1,8 +1,6 @@
 # fastify-jaeger
 
-
 [![Greenkeeper badge](https://badges.greenkeeper.io/chux0519/fastify-jaeger.svg)](https://greenkeeper.io/)
-
 [![Build Status](https://travis-ci.org/chux0519/fastify-jaeger.svg?branch=master)](https://travis-ci.org/chux0519/fastify-jaeger)
 
 Fastify Jaeger tracing plugin, with this you can share the same Jaeger tracer
