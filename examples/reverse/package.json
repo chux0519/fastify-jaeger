@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fastify": "^1.13.0",
+    "fastify": "^1.13.4",
     "jaeger-client": "^3.13.0",
     "opentracing": "^0.14.3",
     "request": "^2.88.0",
