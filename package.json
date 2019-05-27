@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fastify-plugin": "^1.2.1",
+    "fastify-plugin": "^1.6.0",
     "jaeger-client": "^3.13.0",
     "jsonschema": "^1.2.4",
     "simple-json-logger": "^3.1.1"
